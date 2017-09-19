@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomToolbar">
+        <attr name="backgroundSolidColor" format="color" />
+        <attr name="backgroundDrawable" format="reference" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="startGradientColor" format="color" />
+        <attr name="endGradientColor" format="color" />
+        <attr name="gradientOrientation" format="enum">
+            <enum name="leftToRight" value="0" />
+            <enum name="rightToLeft" value="1" />
+            <enum name="topToBottom" value="2" />
+            <enum name="bottomToTop" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
